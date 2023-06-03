@@ -32,3 +32,6 @@ variable "GKE_POOL_NAME" {
   default     = "main"
   description = "GKE pool name"
 }
+variable "DISK_SIZE_GB" {
+  type = number
+}
